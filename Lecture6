@@ -1,3 +1,4 @@
+//Char to Int & Instantiation
 public class MyProgram
 {
     public static void main(String[] args)
@@ -5,14 +6,11 @@ public class MyProgram
     char ch='a';
     System.out.println(ch);
     int c=ch;
-    
     //different ways to convert character to int
     System.out.println(c);
     System.out.println((int)('A'));
-    
     char c1='e';
     int e=c1-'a';
-    System.out.println("E-A : "+e);
-    
+    System.out.println("E-A : "+e);    
     }
 }
